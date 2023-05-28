@@ -1,13 +1,144 @@
 body {
+  line-height: 1 !important;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  color: #333;
+  background-color: #fff;
+  overflow-x: hidden;
+  max-width: 1980px;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header {
+  display: grid !important;
+  grid-template-columns: auto 1fr 215px !important;
+  grid-gap: 20px;
+  padding: 10px 20px;
+  align-items: center;
+  z-index: 100000;
+  position: relative;
+  width: 100%;
+  background: white;
+  left: 0;
+
+
+}
+
+.navlist {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+
+
+
+
+
+}
+
+
+
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.stor {
+  margin: 30px;
+  width: 160px;
+  aspect-ratio: auto 160 / 24;
+  height: 24px;
+
+}
+
+
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(8, max-content);
+  grid-gap: 10px;
+  align-items: center;
+
+
+
+}
+
+
+.nav-pills .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+li {
+  padding: 10px 0px;
+  font-size: 13px;
+  color: #413f3f;
+  text-transform: uppercase;
+  font-family: 'Basier Square';
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  float: left;
+  text-decoration: none;
+  display: inline;
+  letter-spacing: 3px;
+
+
+
+
+}
+
+.desktop-menu {
+  margin-right: -40px;
+  padding: 10px 0px;
+  position: relative;
+  font-size: 13px;
+  color: #413f3f;
+  font-family: 'Basier Square' !important;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  list-style: none;
+  margin-right: 20px;
+  padding: 2px;
+}
+
+.book {
+  color: white;
+  background-color: black;
+
+}
+
+.header-login-col li.login-btn {
+  background: url(https://bys-prod.s3.eu-west-2.amazonaws.com/assets/img/logo/login-icon.svg) no-repeat 0 center;
+  padding: 2px 0 2px 20px;
+  text-transform: capitalize;
+}
+
+.header-login-col li.login-btn a{
+  text-transform: capitalize;
+}
+.desktop-menu li a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #444444;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Basier Square' !important;
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }

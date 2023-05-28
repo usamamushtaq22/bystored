@@ -142,3 +142,67 @@ li {
   font-weight: 500;
   letter-spacing: 0.5px;
 }
+
+.heading-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    text-align: center;
+    font-family: 'Recoleta' !important;
+    color: #444444;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+    line-height: 1em;
+
+}
+.nbanner-wrapper{
+  width: 1060px;
+  margin: 0 auto;
+  padding: 40px 0 70px 0;
+  float: left;
+  width: 528px;
+  position: relative;
+}
+
+div{
+  display: block;
+}
+.input-box{
+  background: #ffffff;
+  height: 60px;
+  border: 1px solid #1d1d1f;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 280px;
+  padding: 0px 15px;
+
+  font-size: 16px;
+  font-family: 'Basier Square' !important;
+  text-transform: uppercase;
+  line-height: inherit;
+
+}
+
+
+.nbanner-right{
+  float: left;
+  width: 528px;
+  position: relative;
+}
+.nbanner-left{
+  float: left;
+  width: 43%;
+
+  padding: 10% 10 10 0%;
+
+
+
+}
+
+.home-left{
+
+}

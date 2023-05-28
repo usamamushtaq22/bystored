@@ -4,7 +4,7 @@ const Nav = () => {
     return (
         <>
             <div className='navlist'>
-                <h1 className='stor'>STORED</h1>
+                <img width="160px" height="24px" src="https://bys-prod.s3.eu-west-2.amazonaws.com/assets/img/logo/logo-v11.svg" alt="Stored-logo" data-pagespeed-url-hash="769580905" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
                 <nav className='navbar'>
                     <ul>
                         <li>PERSONAL STORAGE</li>
